@@ -1,0 +1,87 @@
+\documentclass[a4paper, 12pt]{report}
+
+%%%%%%%%%%%%
+% Packages %
+%%%%%%%%%%%%
+
+\usepackage[english]{babel}
+\usepackage[noheader]{packages/sleek}
+\usepackage{packages/sleek-title}
+\usepackage{packages/sleek-theorems}
+\usepackage{packages/sleek-listings}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=bash,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+%%%%%%%%%%%%%%%%
+% Bibliography %
+%%%%%%%%%%%%%%%%
+
+\addbibresource{./resources/bib/references.bib}
+
+%%%%%%%%%%
+% Others %
+%%%%%%%%%%
+
+
+%%%%%%%%%%%%
+% Document %
+%%%%%%%%%%%%
+
+\begin{document}
+    \romantableofcontents
+
+\chapter{1. Basic Unix Use}
+    In How Linux Works:
+        \begin{itemize}
+                \item Read Introduction
+                \item Read Chapter 1. for the basics of the Linux system.
+                \item Read as much of Chatper 2. as you can. Then keep close by as a reference. Do as much as you can from the CLI.
+
+                \item Commands to practice and remember:
+                
+                \begin{lstlisting} 
+        ls, cd, (cd ..), pwd, mkdir, touch, rm, (packag manager:) pacman -S, cat, vim (remember how to exit :qw, insert mode is i, ESC to change mode), man (for manuals)\end{lstlisting}
+        \item More to be added. Probably, Networking, web programming basics
+        \end{itemize}
+\chapter{C Programming}
+\begin{itemize}
+        \item Do hacker rank C challenge as often as you can.
+        \item In Effective C, read xxiv-xxv, Chapters 1-5.
+        \item Then we work on algorithms and basic data structures (I will find a text reference we can follow)
+        \item Then read Ch. 6 through Ch. 11 of Effective C. 
+\end{itemize}
+\chapter{Python Programming}
+\begin{itemize}
+        \item Basic OOP
+        \item list comprehension
+        \item itertools
+        \item functools (basics of functional programming)
+        \item Project: make a command line based atm machine, bonus points for mad hacker aesthetic.
+        \item Numpy and pandas. Yay high level access to numerical computing
+        \item Test driven development
+        \item Flask, web app basics, http, networking, light js for ui development if we have time
+        \end{itemize}
+
+\end{document}
