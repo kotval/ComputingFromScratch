@@ -49,5 +49,3 @@ Commands to practice and remember:
 * Test driven development
 * Web app basics, http, networking, a tiny bit of JS.
 
-References 
-:bibliography:`../../ref.bib`
