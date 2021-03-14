@@ -22,7 +22,7 @@
 
 # Basic Unix Use
 
-In How Linux Works :cite:`howlinux`
+In How Linux Works {cite}`howlinux`
 
 * Read Introduction
 * Read Chapter 1. for the basics of the Linux system.
@@ -36,7 +36,7 @@ Commands to practice and remember:
 # C Programming
 
 * Do hacker rank C challenge as often as you can. I will assign specific exercises here as we progress.
-* In Effective C :cite:`seacord`, read xxiv-xxv, Chapters 1-5.
+* In Effective C {cite}`seacord`, read xxiv-xxv, Chapters 1-5.
 * Then read Ch. 6 through Ch. 11 of Effective C. 
 
 # Python Programming
