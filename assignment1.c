@@ -30,8 +30,25 @@ int main() {
 	while(1) {
 		//Prompt Play X for input
 
+		puts("Player X: Select square:\n");
+		char *input[3];
+	        gets(input);
+		
+		int userrow=input[0]-1;
+		int usercol=input[2];
+		if(usercol==1){
+			usercol=0;
+		}
+		if(usercol==3){
+			usercol=4;
+		}
+		board[userrow][usercol]="X";
 		//Print State of Game Board
-		//
+		puts(board[0]);
+		puts(board[1]);
+		puts(board[2]);
+
+	
 
 		//Check for Win
 		//
